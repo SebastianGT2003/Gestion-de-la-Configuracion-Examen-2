@@ -1,4 +1,4 @@
-name: Docker Image GHCR CI
+name: Docker Image Exam 2 GHCR CI
 
 on:
   push
