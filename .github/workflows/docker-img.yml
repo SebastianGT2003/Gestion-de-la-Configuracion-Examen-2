@@ -12,6 +12,6 @@ jobs:
         run: echo "::set-output name=version::${{ github.run_number }}"
       - name: Build and push the Image
         run: |
-          docker login --username gestionconfiguracion --password ${{ secrets.REGISTRY_PASSWORD }} ghcr.io
+          docker login --username gestionconfiguracion --password ${{ secrets.REGISTRY_PASSWORD }} gestionconfiguracion.azurecr.io
           docker build . --tag gestionconfiguracion.azurecr.io/ema/petclinic:${{ steps.version.outputs.version }}
           docker push gestionconfiguracion.azurecr.io/ema/petclinic:${{ steps.version.outputs.version }}
