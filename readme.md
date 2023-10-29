@@ -34,4 +34,4 @@
 
 > #### 12. Azure Cost Management and Billing: Para realizar un seguimiento y controlar los costos de los recursos de Azure, este nos sale de gratis si usamos Azure.
 
-### Y el en total por todos estos servicios, tendremos que pagar **5214,48 USD por mes**, sería lo que nos costaría mantener la Aplicación web en el ambiente de producción.
+### Y en total por todos estos servicios, tendremos que pagar **5214,48 USD por mes**, para poder mantener la Aplicación web en el ambiente de producción.
